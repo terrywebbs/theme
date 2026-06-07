@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "themes": {
+        "fallout": {
+            "name": "terrywebbs",
+            "repo": "https://github.com/terrywebbs/theme/master",
+            "zip": "https://github.com/terrywebbs/theme/archive/master.zip",
+            "summary": "terrywebbs theme with logo, one page layout.",
+            "version": "3.2.1",
+            "image": "https://raw.githubusercontent.com/terrywebbs/theme/master/preview.jpg"
+        }
+    }
+}
