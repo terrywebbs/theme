@@ -1,0 +1,183 @@
+/* ==========================================================================
+   1. Global Elements & Reset
+   ========================================================================== */
+body {
+	background: #f7f7f7 url(../css/hdbg1.jpg) top left repeat-x;
+	color: #333;
+	text-align: center;
+	line-height: 1.4;
+	margin: 0;
+	overflow-y: scroll;	
+	font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+ul {
+	margin-top: 0;
+}
+
+a:link,
+a:visited {
+	color: #3399ff;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #b23636;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+table {
+	color: #212529;
+	font-size: 15px;
+}
+
+img {
+	border: none;
+}
+
+/* ==========================================================================
+   2. Main Layout Shell
+   ========================================================================== */
+#mainwidth {
+	width: 85%;
+	text-align: left;
+	line-height: 1.4;
+	margin: 0 auto;
+}
+
+.headercontainer {
+	display: flex;
+	align-items: center;    /* Centers the logo vertically inside the panel */
+	min-height: 120px;      /* Gives the header container a comfortable, consistent height */
+	width: 100%;
+}
+
+.userrow3 {
+	width: 100%;            /* Forces the panel to span the full width of the body */
+	display: flex;
+	align-items: center;    /* Extra vertical centering enforcement */
+}
+
+.logo {
+	display: inline-flex;
+	align-items: center;
+}
+
+.logo img {
+	display: block;
+	max-width: 100%;        /* Responsive safeguard for smaller screens */
+	height: auto;           /* Maintains aspect ratio dynamically */
+}
+
+#content {
+	background: #f8f6f6;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid #e1e1e1;
+	border-radius: .25rem;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+	color: #333;
+	width: auto !important;
+	font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   3. Navigation Menu (#cssmenu)
+   ========================================================================== */
+#cssmenu {
+	width: 100%;
+	height: 44px;
+	background-color: #f7f7f7;
+}
+
+#cssmenu ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#cssmenu a {
+	display: block;
+	padding: 10px;
+	color: #284260;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #fff;
+	transition: color 0.5s ease;
+}
+
+#cssmenu a:hover {
+	color: #18314d;
+}
+
+/* ==========================================================================
+   4. Breadcrumbs Block (.navigation)
+   ========================================================================== */
+.navigation {
+	background: #3399ff;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 13px;
+	border-radius: 2px;
+	text-shadow: 1px 1px 0 #3399ff;
+}
+
+.navigation a {
+	color: #fff;
+	font-size: 13px;
+	transition: color 0.5s ease;
+}
+
+.navigation a:hover {
+	color: #ccc;
+}
+
+.navigation .active {
+	font-weight: bold;
+}
+
+/* ==========================================================================
+   5. Tables & Footer Styles
+   ========================================================================== */
+.tborder {
+	background: #fff;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #e4e6e9;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.tfoot {
+	background: #324e66;
+	color: #fff;
+	box-shadow: rgba(0,0,0,0.3) 0 1px 4px, inset #3d6485 0 1px 0;
+	background-clip: padding-box;
+	border: 1px solid #1a2936;
+	border-radius: 0 0 3px 3px;
+	padding: 8px;
+	font-size: 14px;
+	text-shadow: 1px 1px 0 #284260;
+}
+
+.tfoot a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px #284260;
+}
+
+.smalltext {
+	font-size: 14px;
+}
