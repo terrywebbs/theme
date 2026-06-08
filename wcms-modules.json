@@ -1,7 +1,7 @@
 {
     "version": 1,
     "themes": {
-        "terrywebbs": {
+        "theme": {
             "name": "terrywebbs",
             "repo": "https://github.com/terrywebbs/theme/",
             "zip": "https://github.com/terrywebbs/theme/archive/theme-main.zip",
