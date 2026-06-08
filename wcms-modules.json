@@ -4,7 +4,7 @@
         "terrywebbs": {
             "name": "terrywebbs",
             "repo": "https://github.com/terrywebbs/theme/",
-            "zip": "https://github.com/terrywebbs/theme/theme-main.zip",
+            "zip": "https://github.com/terrywebbs/theme/archive/theme-main.zip",
             "summary": "terrywebbs theme with logo, one page layout.",
             "version": "3.2.1",
             "image": "https://raw.githubusercontent.com/terrywebbs/theme/master/preview.jpg"
