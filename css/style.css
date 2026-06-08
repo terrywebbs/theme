@@ -10,7 +10,7 @@ body {
 	line-height: 1.4;
 	margin: 0;
 	overflow-y: scroll;	
-	font-family: "Inconsolata", monospace;
+	font-family: "ubuntu", monospace;
 	font-size: 16px;
 }
 
@@ -83,7 +83,7 @@ img {
 	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 	color: #333;
 	width: auto !important;
-	font-family: "Inconsolata", monospace;
+	font-family: "unbuntu", monospace;
 	font-size: 14px;
 }
 
