@@ -19,8 +19,6 @@
     <!-- Core WonderCMS Admin CSS Tools -->
     <?= $Wcms->css() ?>
 
-	<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cloudflare.com" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Crucial Panel Injections for Alerts & Admin Settings Toolbar -->
