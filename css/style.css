@@ -1,9 +1,6 @@
 /* ==========================================================================
    1. Global Elements & Reset
    ========================================================================== */
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://gstatic.com" crossorigin>
-<link href="https://googleapis.com" rel="stylesheet">
 @import url('https://googleapis.com');
 
 body {
