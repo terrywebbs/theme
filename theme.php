@@ -66,9 +66,12 @@
                     </main>
                     
                     <!-- Dynamic Sidebar Block Area (Persistent across all site loops) -->
-                    <aside class="sidebar-block-area">
-                        <?= $Wcms->block('subside') ?>
-                    </aside>
+                    <?php if ($Wcms->currentPage !== 'home'): ?>
+    <aside class="sidebar-block-area">
+        <?= $Wcms->block('subside') ?>
+    </aside>
+<?php endif; ?>
+					
                 </div>
 
                 <table border="0" cellspacing="0" cellpadding="0" class="tborder">
